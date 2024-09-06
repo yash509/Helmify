@@ -162,3 +162,5 @@ go test ./...
 Beside unit-tests, project contains e2e test `pkg/app/app_e2e_test.go`.
 It's a go test, which uses `test_data/*` to generate a chart in temporary directory. 
 Then runs `helm lint --strict` to check if generated chart is valid.
+
+
